@@ -2,12 +2,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from "react-router-dom";
 import {Route, Switch} from "react-router";
-import {Header} from "./components/Header";
+import {Header} from "./components/header/Header";
 import {Footer} from "./components/Footer";
 import {Home} from "./pages/Home";
 import {Episodes} from "./pages/Episodes";
 import {Blog} from "./pages/Blog";
 import {Contacts} from "./pages/Contacts";
+
 
 function App() {
   return (
