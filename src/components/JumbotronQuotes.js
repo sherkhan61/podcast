@@ -1,9 +1,10 @@
 import React from 'react'
-import {Col, Container, Image, Jumbotron as Jumbo} from "react-bootstrap";
+import {Jumbotron as Jumbo} from "react-bootstrap";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./jumbotron-quotes.css"
+import {Carousel} from "react-responsive-carousel";
 import img2 from "../assets/photos/img2.png"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faQuoteRight} from "@fortawesome/free-solid-svg-icons";
+
 
 export const JumbotronQuotes = () => {
     return (
@@ -11,24 +12,52 @@ export const JumbotronQuotes = () => {
             <Jumbo fluid className='jumbo'>
                 <div className="overlay">
                 </div>
-                <Container>
-                    <blockquote>
-                        <FontAwesomeIcon size="6x" icon={faQuoteRight} className="mr-1"/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem libero numquam voluptates!</p>
-                    </blockquote>
-                    <div className="d-flex justify-content-center">
-                        <div className="row">
-                            <Col xs={6} md={4}>
-                                <Image src={img2} roundedCircle/>
-                            </Col>
+                <div className="container">
+                    <Carousel
+                        showArrows={false}
+                        infiniteLoop={true}
+                        showThumbs={false}
+                        showStatus={false}
+                        autoPlay={true}
+                        interval={6100}
+                    >
+                        <div>
+                            <img src={img2} />
+                            <div className="myCarousel">
+                                <h3>Shirley Fultz</h3>
+                                <h4>Designer</h4>
+                                <p>
+                                    It's freeing to be able to catch up on customized news and not be
+                                    distracted by a social media element on the same site
+                                </p>
+                            </div>
                         </div>
-                        <span>
-                            <strong>Rachel Zeis</strong>
-                            <span>CEO at Allep</span>
-                        </span>
-                    </div>
 
-                </Container>
+                        <div>
+                            <img src={img2} />
+                            <div className="myCarousel">
+                                <h3>Daniel Keystone</h3>
+                                <h4>Designer</h4>
+                                <p>
+                                    The simple and intuitive design makes it easy for me use. I highly
+                                    recommend Fetch to my peers.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src={img2} />
+                            <div className="myCarousel">
+                                <h3>Theo Sorel</h3>
+                                <h4>Designer</h4>
+                                <p>
+                                    I enjoy catching up with Fetch on my laptop, or on my phone when
+                                    I'm on the go!
+                                </p>
+                            </div>
+                        </div>
+                    </Carousel>
+                </div>
             </Jumbo>
         </>
     )

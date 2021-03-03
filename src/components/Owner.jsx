@@ -2,7 +2,7 @@ import React from "react";
 import owner from "../assets/photos/owner.jpg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faInstagram, faVk} from "@fortawesome/free-brands-svg-icons";
-
+import "./owner.css"
 
 export const Owner = () => {
     return (
@@ -22,17 +22,17 @@ export const Owner = () => {
                     <h4>Zhanagul Tlepbergenova</h4>
                     <div className="col-lg-6 col-sm-12 social-media d-flex">
                         <div className="row">
-                            <ul className='col-sm-12'>
-                                <li className=''><a href="https://www.facebook.com/">
+                            <ul className='col-sm-12 d-flex p-3'>
+                                <li className='ml-3'><a href="https://www.facebook.com/">
                                     <FontAwesomeIcon icon={faFacebook} className="mr-1"/></a>
                                 </li>
-                                <li>
+                                <li className='ml-3'>
                                     <a target="_blank"
                                         href="https://www.instagram.com/zhan.tlepbergenova/">
                                         <FontAwesomeIcon icon={faInstagram} className="mr-1"/>
                                     </a>
                                 </li>
-                                <li>
+                                <li className='ml-3'>
                                     <a href="#"><FontAwesomeIcon icon={faVk} className="mr-1"/>
                                     </a>
                                 </li>
@@ -42,7 +42,7 @@ export const Owner = () => {
 
                 </div>
                 <div className="col-md-6 col-sm-12">
-                    <img className="w-100"
+                    <img className="ownerImg"
                          src={owner}
                          alt="owner"/>
                 </div>
