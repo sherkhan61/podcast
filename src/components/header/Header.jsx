@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
-import {Button, Container, Form, Modal, Nav, Navbar} from "react-bootstrap";
+import {Container, Form, Image, Modal, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
+import logo from "../../logo.svg"
 import "./header.css"
 
 export const Header = () => {
@@ -14,22 +15,28 @@ export const Header = () => {
             <header className="w-100">
                 <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
                     <Container>
-                        <Navbar.Brand><Link to='/'>Podcast</Link></Navbar.Brand>
+                        <Navbar.Brand>
+                            <Link to='/'>
+                                <Image className="header_logo" alt="logo"
+                                       src={logo}/>
+                            </Link>
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                         <Navbar.Collapse id='responsive-navbar-nav'>
-                            <Nav className='mr-auto'>
-                                <Nav.Link><Link to='/'>Home</Link></Nav.Link>
-                                <Nav.Link><Link to='/episodes'>Episodes</Link></Nav.Link>
-                                <Nav.Link><Link to='/blog'>Blog</Link></Nav.Link>
-                                <Nav.Link><Link to='/contacts'>Contacts</Link></Nav.Link>
-                            </Nav>
-                            <Nav>
-                                <Button variant='primary'
-                                        className='mr-2'
-                                        onClick={handleShow}>Log In</Button>
-                                <Button variant='danger'
-                                        onClick={handleShow}>Log Out</Button>
-                            </Nav>
+                            <ul className="navbar-nav">
+                                <li className="navbar-item active-li">
+                                    <Nav.Link><Link to='/'>Home</Link></Nav.Link>
+                                </li>
+                                <li className="navbar-item">
+                                    <Nav.Link><Link to='/episodes'>Episodes</Link></Nav.Link>
+                                </li>
+                                <li className="navbar-item">
+                                    <Nav.Link><Link to='/blog'>Blog</Link></Nav.Link>
+                                </li>
+                                <li className="navbar-item">
+                                    <Nav.Link><Link to='/contacts'>Contacts</Link></Nav.Link>
+                                </li>
+                            </ul>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

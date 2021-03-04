@@ -7,20 +7,18 @@ import img4 from "../../assets/photos/zhan.tlepbergenova_72867479_40900341668566
 
 export const Cards = () => {
     return (
-        <div className="container d-flex justify-content-center flex-row-reverse">
-            <div className="row">
-                <div className="col-lg-3 col-md-6">
-                    <Card imgsrc={img4} title="Episode 4"/>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <Card imgsrc={img3} title="Episode 3"/>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <Card imgsrc={img2} title="Episode 2"/>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <Card imgsrc={img1} title="Episode 1"/>
-                </div>
+        <div className="row d-flex justify-content-center flex-row-reverse">
+            <div className="col-lg-3 col-md-6">
+                <Card imgsrc={img4} title="Episode 4"/>
+            </div>
+            <div className="col-lg-3 col-md-6">
+                <Card imgsrc={img3} title="Episode 3"/>
+            </div>
+            <div className="col-lg-3 col-md-6">
+                <Card imgsrc={img2} title="Episode 2"/>
+            </div>
+            <div className="col-lg-3 col-md-6">
+                <Card imgsrc={img1} title="Episode 1"/>
             </div>
         </div>
 

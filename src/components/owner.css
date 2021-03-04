@@ -1,7 +1,9 @@
 ul {
     list-style: none;
 }
-
+.social-media a {
+    color: #007bff;
+}
 .ownerImg {
     width: 100%;
 

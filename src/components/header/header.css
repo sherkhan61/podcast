@@ -1,0 +1,31 @@
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+header {
+    z-index: 2;
+    background: 0 0;
+    border-bottom: 1px solid grey;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    top: 0;
+    transition: 1s;
+    border-bottom: 1px solid grey
+}
+.header_logo {
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+header a {
+    color: #fff;
+    font-family: Hind, sans-serif;
+    font-weight: 600;
+    font-size: 15px
+}
+
+header a:hover {
+    color: #fff
+}

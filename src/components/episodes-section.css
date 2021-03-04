@@ -1,0 +1,22 @@
+.episodes-section {
+    padding: 30px;
+}
+
+.episodes-section h2 {
+    font-weight: 700;
+    color: #212529;
+    font-family: Hind, sans-serif;
+    text-align: center;
+}
+
+.episodes-section-content {
+    margin: 20px;
+}
+
+.episodes-section-content a {
+    color: #212529;
+}
+
+.episodes-section-content a:hover {
+    color: #007bff;
+}
