@@ -1,10 +1,12 @@
 import React from "react";
-
+import {MainEpisodesSection} from "../components/MainEpisodesSection"
+import {ContentEpisodesSection} from "../components/ContentEpisodesSection"
 
 export const Episodes = () => {
     return (
         <>
-            <h1>Episodes</h1>
+            <MainEpisodesSection/>
+            <ContentEpisodesSection/>
         </>
     )
 }

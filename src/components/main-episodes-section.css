@@ -1,29 +1,27 @@
-.main-section {
-  background: url("/src/assets/images/waterfall.jpg") no-repeat;
+.main-episodes-section {
+  background: url("/src/assets/images/travel.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   height: 600px;
   width: 100%;
   background-position: center;
 }
-overlay {
+.overlay {
   background-color: #000;
-  opacity: 0.2;
+  opacity: 2;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+  z-index: 0;
 }
 
-.main-section h1 {
+.main-episodes-section h1 {
   font-weight: 700;
+  text-align: center;
   color: #fff;
   margin: 0 0 15px 0;
   font-family: Hind, sans-serif;
 }
 
-.main-section p {
-  color: #a6a7aa;
+.main-episodes-section p {
+  color: #fff;
+  text-align: center;
 }

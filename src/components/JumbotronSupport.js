@@ -9,8 +9,6 @@ export const JumbotronSupport = () => {
     return (
         <>
             <Jumbo fluid className='jumboSupport'>
-                <div className="overlay">
-                </div>
                 <Container>
                     <FontAwesomeIcon size="6x" icon={faMicrophoneAlt} className="mr-1"/>
                     <h1>Episode</h1>

@@ -25,16 +25,16 @@ export const Header = () => {
                         <Navbar.Collapse id='responsive-navbar-nav'>
                             <ul className="navbar-nav">
                                 <li className="navbar-item active-li">
-                                    <Nav.Link><Link to='/'>Home</Link></Nav.Link>
+                                    <Nav.Link><Link to='/'>HOME</Link></Nav.Link>
                                 </li>
                                 <li className="navbar-item">
-                                    <Nav.Link><Link to='/episodes'>Episodes</Link></Nav.Link>
+                                    <Nav.Link><Link to='/episodes'>EPISODES</Link></Nav.Link>
                                 </li>
                                 <li className="navbar-item">
-                                    <Nav.Link><Link to='/blog'>Blog</Link></Nav.Link>
+                                    <Nav.Link><Link to='/blog'>BLOG</Link></Nav.Link>
                                 </li>
                                 <li className="navbar-item">
-                                    <Nav.Link><Link to='/contacts'>Contacts</Link></Nav.Link>
+                                    <Nav.Link><Link to='/contacts'>CONTACTS</Link></Nav.Link>
                                 </li>
                             </ul>
                         </Navbar.Collapse>

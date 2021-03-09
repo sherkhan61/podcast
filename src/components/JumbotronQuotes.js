@@ -10,8 +10,6 @@ export const JumbotronQuotes = () => {
     return (
         <>
             <Jumbo fluid className='jumbo'>
-                <div className="overlay">
-                </div>
                 <div className="container">
                     <Carousel
                         showArrows={false}
