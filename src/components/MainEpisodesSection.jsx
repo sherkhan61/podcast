@@ -4,7 +4,7 @@ import "./main-episodes-section.css"
 export const MainEpisodesSection = () => {
     return (
         <>
-            <section id="main-episodes-section" className="main-episodes-section overlay d-flex align-items-center">
+            <section id="main-episodes-section" className="main-episodes-section d-flex align-items-center">
                 <div className="container">
                     <div className="main-episodes-section-content">
                         <h1>Шабадансыз саяхат</h1>

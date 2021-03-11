@@ -1,5 +1,4 @@
 import React from 'react'
-import {Container, Jumbotron as Jumbo} from "react-bootstrap";
 import "./main-section.css"
 
 export const MainSection = () => {

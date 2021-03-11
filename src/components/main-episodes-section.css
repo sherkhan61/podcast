@@ -6,14 +6,8 @@
   width: 100%;
   background-position: center;
 }
-.overlay {
-  background-color: #000;
-  opacity: 2;
-  position: absolute;
-  z-index: 0;
-}
 
-.main-episodes-section h1 {
+.main-episodes-section-content h1 {
   font-weight: 700;
   text-align: center;
   color: #fff;
@@ -21,7 +15,7 @@
   font-family: Hind, sans-serif;
 }
 
-.main-episodes-section p {
+.main-episodes-section-content p {
   color: #fff;
   text-align: center;
 }

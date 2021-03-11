@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container, Jumbotron as Jumbo} from "react-bootstrap";
 import "./jumbotron-support.css"
-import {faFacebook} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMicrophoneAlt} from "@fortawesome/free-solid-svg-icons";
 
