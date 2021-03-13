@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../assets/photos/img1.jpg"
+import img from "../../assets/photos/img1.jpg"
 
 export const ContentEpisodesSection = () => {
     return (

@@ -3,7 +3,7 @@ import {Jumbotron as Jumbo} from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./jumbotron-quotes.css"
 import {Carousel} from "react-responsive-carousel";
-import img2 from "../assets/photos/img2.png"
+import img2 from "../../assets/photos/img2.png"
 
 
 export const JumbotronQuotes = () => {

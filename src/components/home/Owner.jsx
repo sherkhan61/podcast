@@ -1,5 +1,5 @@
 import React from "react";
-import owner from "../assets/photos/owner.jpg"
+import owner from "../../assets/photos/owner.jpg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faInstagram, faVk} from "@fortawesome/free-brands-svg-icons";
 import "./owner.css"

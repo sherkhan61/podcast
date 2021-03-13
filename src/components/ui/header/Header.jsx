@@ -1,10 +1,12 @@
 import React, {useState} from 'react'
 import {Container, Form, Image, Modal, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import logo from "../../logo.svg"
+import logo from "../../../logo.svg"
+
 import "./header.css"
 
-export const Header = () => {
+
+const Header = () => {
 
     const [show, setShow] = useState(false)
     const handleClose = () => setShow(false)
@@ -65,3 +67,5 @@ export const Header = () => {
         </>
     )
 }
+
+export default Header

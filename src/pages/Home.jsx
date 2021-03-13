@@ -1,12 +1,12 @@
 import React from "react";
-import {Owner} from "../components/Owner";
-import {JumbotronSupport} from "../components/JumbotronSupport";
-import {JumbotronQuotes} from "../components/JumbotronQuotes";
-import {MainSection} from "../components/header/MainSection";
-import {EpisodesSection} from "../components/EpisodesSection";
+import {Owner} from "../components/home/Owner";
+import {JumbotronSupport} from "../components/home/JumbotronSupport";
+import {JumbotronQuotes} from "../components/home/JumbotronQuotes";
+import {MainSection} from "../components/home/MainSection";
+import {EpisodesSection} from "../components/home/EpisodesSection";
 
 
-export const Home = () => {
+const Home = () => {
     return (
         <>
             <MainSection/>
@@ -19,3 +19,5 @@ export const Home = () => {
         </>
     )
 }
+
+export default Home

@@ -1,17 +1,11 @@
 
-.bg-dark {
-    background-color: transparent !important;
-}
 
 header {
+    position: relative;
     z-index: 2;
-    background: 0 0;
-    border-bottom: 1px solid grey;
-    padding: 10px 0 10px 0;
-    position: fixed;
-    top: 0;
-    transition: 1s;
-    border-bottom: 1px solid grey
+    box-sizing: inherit;
+    opacity: 1;
+    background: none;
 }
 .header_logo {
     margin-right: 30px;

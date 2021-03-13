@@ -1,5 +1,5 @@
 import React from "react";
-import {Cards} from "./cards/Cards";
+import {Cards} from "../cards/Cards";
 import "./episodes-section.css"
 import {Link} from "react-router-dom";
 import {Nav} from "react-bootstrap";

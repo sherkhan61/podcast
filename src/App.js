@@ -1,33 +1,18 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
 import {BrowserRouter} from "react-router-dom";
-import {Route, Switch} from "react-router";
-import {Header} from "./components/header/Header";
-import {Footer} from "./components/Footer";
-import {Home} from "./pages/Home";
-import {Episodes} from "./pages/Episodes";
-import {Blog} from "./pages/Blog";
-import {Contacts} from "./pages/Contacts";
+import {Footer, Header} from "./components/ui";
+import Routes from "./Routes";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function App() {
+
+const App = () => {
   return (
       <div>
         <BrowserRouter>
           <Header/>
-          <Switch>
-            <Route exact path='/'>
-              <Home/>
-            </Route>
-            <Route path='/episodes'>
-              <Episodes/>
-            </Route>
-            <Route path='/blog'>
-              <Blog/>
-            </Route>
-            <Route path='/contacts'>
-              <Contacts/>
-            </Route>
-          </Switch>
+          <Routes/>
           <Footer />
         </BrowserRouter>
       </div>

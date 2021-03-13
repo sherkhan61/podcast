@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faInstagram, faVk} from "@fortawesome/free-brands-svg-icons";
 
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <>
             <Container fluid style={{backgroundColor: '#212529', color: '#fff'}}>
@@ -33,3 +33,5 @@ export const Footer = () => {
         </>
     )
 }
+
+export default Footer
