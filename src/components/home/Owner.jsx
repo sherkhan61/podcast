@@ -11,13 +11,7 @@ export const Owner = () => {
             <div className="row my-5">
                 <div className="col-md-6 col-sm-12">
                     <h4 className="my-3">Hello, I am Zhanka.</h4>
-                    <p>Leave that to me. Send a distress signal, and inform the Senate that all on board were killed.
-                        Dantooine. They’re on Dantooine. The plans you refer to will soon be back in our hands.
-                        Alderaan? I’m not going to Alderaan. I’ve got to go home.
-                        I find your lack of faith disturbing. Kid, I’ve flown from one side of this galaxy to the other.
-                        I’ve seen a lot of strange stuff, but I’ve never seen anything to make me believe there’s one
-                        all-powerful Force controlling everything. There’s no mystical energy field that controls my
-                        destiny. It’s all a lot of simple tricks.
+                    <p>Меня зовут Жанагуль. Я люблю путешествовать. В своем подкасте я делюсь своими впечатлениями о новых местах, а также беседую с любителями путешествий налегке. Как говорил Ибн Баттута, "Путешествия лишают тебя дара речи, а потом превращают в лучшего рассказчика" Надеюсь, мой подкаст вдохновит Вас на новые открытия!
                     </p>
                     <h4>Zhanagul Tlepbergenova</h4>
                     <div className="col-lg-6 col-sm-12 social-media d-flex">
