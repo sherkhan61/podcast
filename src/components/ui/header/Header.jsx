@@ -33,9 +33,6 @@ const Header = () => {
                                     <Nav.Link><Link to='/episodes'>EPISODES</Link></Nav.Link>
                                 </li>
                                 <li className="navbar-item">
-                                    <Nav.Link><Link to='/blog'>BLOG</Link></Nav.Link>
-                                </li>
-                                <li className="navbar-item">
                                     <Nav.Link><Link to='/contacts'>CONTACTS</Link></Nav.Link>
                                 </li>
                             </ul>

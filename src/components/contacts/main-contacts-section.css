@@ -1,0 +1,21 @@
+.main-contacts-section {
+    background: url("/src/assets/images/microphone.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+}
+
+.main-contacts-section-content h1 {
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 15px 0;
+    font-family: Hind, sans-serif;
+}
+
+.main-contacts-section-content p {
+    color: #fff;
+    text-align: center;
+}

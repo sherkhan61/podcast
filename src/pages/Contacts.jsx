@@ -1,11 +1,15 @@
 import React from "react";
+import ContactsForm from "../components/contacts/ContactsForm";
+import MainContactsSection from "../components/contacts/MainContactsSection";
 
 
 const Contacts = () => {
     return (
         <>
-            <h1>Contacts</h1>
+            <MainContactsSection/>
+            <ContactsForm/>
         </>
+
     )
 }
 

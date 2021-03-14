@@ -1,15 +1,14 @@
 import React from 'react'
-import {Jumbotron as Jumbo} from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./jumbotron-quotes.css"
+import "./quotes-section.css"
 import {Carousel} from "react-responsive-carousel";
 import img2 from "../../assets/photos/img2.png"
 
 
-export const JumbotronQuotes = () => {
+export const QuotesSection = () => {
     return (
         <>
-            <Jumbo fluid className='jumbo'>
+            <section className='quotesSection'>
                 <div className="container">
                     <Carousel
                         showArrows={false}
@@ -56,7 +55,7 @@ export const JumbotronQuotes = () => {
                         </div>
                     </Carousel>
                 </div>
-            </Jumbo>
+            </section>
         </>
     )
 }

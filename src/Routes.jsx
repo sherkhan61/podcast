@@ -20,9 +20,6 @@ const Routes = () => {
                     <Route path='/episodes'>
                         <Episodes/>
                     </Route>
-                    <Route path='/blog'>
-                        <Blog/>
-                    </Route>
                     <Route path='/contacts'>
                         <Contacts/>
                     </Route>

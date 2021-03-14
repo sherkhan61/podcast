@@ -7,12 +7,8 @@ import {Preloader} from "../components/ui/preloader/Preloader";
 const Episodes = () => {
     return (
         <>
-            <Preloader/>
-            <>
-                <MainEpisodesSection/>
-                <ContentEpisodesSection/>
-            </>
-
+            <MainEpisodesSection/>
+            <ContentEpisodesSection/>
         </>
     )
 }

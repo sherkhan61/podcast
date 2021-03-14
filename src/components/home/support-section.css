@@ -1,10 +1,10 @@
-.jumboSupport {
-    background: url("/src/assets/images/listenPodcast.jpg") no-repeat fixed bottom;
-    background-size: cover;
+.supportSection {
+    background: url("/src/assets/images/listenPodcast.jpg") no-repeat;
+    -webkit-background-size: cover;
+    max-width:100%;
     color: #efefef;
     height: 400px;
-    position: relative;
-    z-index: -2;
+    background-position: center;
 }
 .overlay {
     background-color: #000;

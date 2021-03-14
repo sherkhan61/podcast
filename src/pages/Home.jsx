@@ -1,7 +1,7 @@
 import React from "react";
 import {Owner} from "../components/home/Owner";
-import {JumbotronSupport} from "../components/home/JumbotronSupport";
-import {JumbotronQuotes} from "../components/home/JumbotronQuotes";
+import {SupportSection} from "../components/home/SupportSection";
+import {QuotesSection} from "../components/home/QuotesSection";
 import {MainSection} from "../components/home/MainSection";
 import {EpisodesSection} from "../components/home/EpisodesSection";
 
@@ -11,11 +11,11 @@ const Home = () => {
         <>
             <MainSection/>
             <EpisodesSection/>
-            <JumbotronSupport/>
+            <SupportSection/>
             <div className="container">
                 <Owner/>
             </div>
-            <JumbotronQuotes/>
+            <QuotesSection/>
         </>
     )
 }
